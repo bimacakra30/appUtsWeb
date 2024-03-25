@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>UTS Login Form</title>
+</head>
+
+<body>
+  <div class="wrapper login">
+    <form id="loginForm">
+      <h1>Sign In Account</h1>
+      <div class="social-icons">
+        <a href="https://accounts.google.com/signin" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+        <a href="https://www.facebook.com/login.php/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://github.com/login" class="icon"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/login" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+      <span>or use your email and password</span>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <div id="error-message" class="error-message"></div>
+      <a href="#">Forget Your Password?</a>
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+  <script src="app.js">  </script>
+</body>
+
+</html>
